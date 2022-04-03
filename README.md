@@ -24,7 +24,7 @@ o<br>
 **Una vez descargado todo, vaya a la carpeta del Source Code y haga lo siguiente:**<br>
 
 **Editar el archivo `config.json` y añadir lo que se requiere.**<br>
-![imagen](https://cdn.discordapp.com/attachments/939780742454587442/960251343514263552/unknown.png)<br>
+![imagen](https://cdn.discordapp.com/attachments/939780742454587442/960252424864563230/unknown.png)<br>
 Para obtener el `Bot ID` y `Bot TOKEN` que se requiere debes crear un Bot, te puedes manejar en este link:
 
 **https://discord.com/developers/applications/**<br><br>
