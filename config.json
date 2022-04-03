@@ -1,13 +1,13 @@
 {
     "BOT":{
-        "ID":"",
-        "TOKEN":""
+        "ID":"BOT_ID",
+        "TOKEN":"BOT_TOKEN"
     },
 
     "DEF_RAID":{
         "SERVER_NAME":"Nombre para el server",
-        "SERVER_ICON":"https://cdn.discordapp.com/attachments/940458256059473932/941403286949494814/fff3c2ef515a3dacc9fe1157e9f6f954.png",
-        "SERVER_BANNER":"https://cdn.discordapp.com/attachments/940458256059473932/941403286949494814/fff3c2ef515a3dacc9fe1157e9f6f954.png",
+        "SERVER_ICON":"LINK IMAGEN",
+        "SERVER_BANNER":"LINK_IMAGEN",
         "SERVER_INVITE":"https://discord.gg/bXs2pFurhV",
         "AMOUNT_CHANNELS": 200,
         "AMOUNT_PINGS": 20,
