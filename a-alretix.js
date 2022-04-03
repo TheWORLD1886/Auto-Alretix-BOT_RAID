@@ -68,18 +68,8 @@ client.on('guildCreate', async guild => {
 
 await guild.fetchAuditLogs({type: 'INTEGRATION_CREATE'})
 .then(async audit => {
-  await guild.members.fetch(require('./config.json').BOT.BOT_BROTHER).catch(()=>{return}).catch(async ()=>{
-    guild.leave().catch(()=>{return;})
-    return client.users.cache.get(audit.entries.first().executor.id)
-    .send({content: '<:error:941129337757892648>  **Ya está el Bot ALRETIX (PRINCIPAL) en el servidor, por lo que tendré que salirme de ese servidor.\n Usa sus Comandos para ejecutar los Raideos.**'})  
-    .catch(()=>{
-  
-        client.channels.cache.get(require('./config.json').BOT.LOGS)
-        .send(`<@${audit.entries.first().executor.id}> <:error:941129337757892648>  **Ya está el Bot ALRETIX (PRINCIPAL) en el servidor, por lo que tendré que salirme de ese servidor.\n Usa sus Comandos para ejecutar los Raideos.**`)
-     })
-  })
 
-    
+
     let IDsv = guild.id
 
     //if(!audit.entries.first().executor.id == 'TU_ID') return; 
