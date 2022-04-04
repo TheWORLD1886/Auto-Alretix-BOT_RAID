@@ -44,4 +44,5 @@ node a-alretix.js
 ```
 <br><br>
 **Despues de esto el Bot encenderá correctamente y podrás raidear los servidores que quieras al ingresar el mismo a un servidor, el Bot hará el Raideo de manera automatica.**<br>
-
+# Info:<br>
+Este código libre es hecho por mi, si vas a compartirlo por favor deja creditos.
